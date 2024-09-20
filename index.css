@@ -1,0 +1,40 @@
+*{
+    margin:0%;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.navbar{
+    margin-top: 3%;
+    margin-bottom:2%;
+}
+.navbar a{
+    margin-left: 3%;
+    vertical-align: middle;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    color: black;
+}
+.btn{
+    background-color: #00b8f0;
+    color: white;
+    font-size: 17px;
+    font-weight:bold;
+    border: none;
+    border-radius: 30px;
+    padding: 0.8% 1%;
+}
+.btn:hover{
+    background-color: hsl(218, 100%, 22%);
+}
+/* Wallet */
+.wallet{
+    background-color: #f6f6f6;
+    text-align: center;
+    padding: 1.5%;
+}
+/* section2 */
+.sec2{
+    display: flex;
+    flex-direction: row;
+}
